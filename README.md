@@ -51,6 +51,26 @@ units=5，目標變數為5項
 <img width="415" alt="image" src="https://user-images.githubusercontent.com/112559944/187923305-f808e09d-6ae0-4c5b-bdd2-d6bbbb87a5b0.png">
 </br>
 
+## AOI
+### step1: data processing
+<br>
+1.使用colab環境，Mount the Drive及讀取資料
+<img width="208" alt="image" src="https://user-images.githubusercontent.com/112559944/187923848-3e18b1d0-95d6-4ff6-9820-22eee016a135.png">
+2.新增資料夾及分類圖片,label有六種，因此產生0-5 label的資料夾
+<img width="319" alt="image" src="https://user-images.githubusercontent.com/112559944/187924176-dda3f50b-16ee-4411-a684-81cd2d8fc533.png">
+3. 處理圖片
+圖片標準化及分割圖片資料，分割80%為測試資料，20%為驗證資料。
+</br>
+
+### step2: build model,train and test
+<br>
+1. use Keras VGG16 pretrained model:
+<img width="354" alt="image" src="https://user-images.githubusercontent.com/112559944/187924572-c8737c64-1600-44e1-b80d-db122c4b576f.png">
+<img width="297" alt="image" src="https://user-images.githubusercontent.com/112559944/187924612-0cd04f73-9985-4d29-a1dd-61b9e32943ad.png">
+2. use test images file to test model and result:
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/112559944/187924764-08ff81e0-c665-4c0b-ba1b-9b23dc03f4a6.png">
+</br>
+
 
 
 
