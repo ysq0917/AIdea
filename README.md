@@ -1,4 +1,4 @@
 # AIdea_problem_practice
-AIdea problem
-AOI machine 
-marathon predict
+marathoon:
+step1: data processing
+
